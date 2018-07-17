@@ -1,0 +1,7 @@
+python,6
+bhargavi,8
+siddipeta,9
+python,6
+reddy,5
+reddy,5
+---UMKC--,9

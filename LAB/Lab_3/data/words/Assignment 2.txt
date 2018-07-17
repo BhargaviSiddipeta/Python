@@ -1,0 +1,32 @@
+Assignment 2
+Advanced Operating Systems
+
+Name IdBhargavi Reddy Siddipeta
+Student Id16263972
+
+DATA Compression
+It is concerned with encoding digitized text audio image or video signals with minimum number of bits so that the number of bits transmitted can be increased and carried on a lower-capacity communication system taking up less storage space and hence requires less bandwidth for efficient transmission In sensor networks  compression is needed to save energy consumption in high-end servers and data centers
+
+Waveform-Based Techniques
+These techniques refer to methods that assume a certain model on the statistics of pixels in an image The primitives of these techniques are either individual pixels or a block of pixels (or a transformed version from their values) and constitute the message to be encoded These techniques can be roughly divided into two major classes namely predictive coding and transform-based coding In predictive coding the spatial correlation between pixels in an image is reduced by predicting the value of every pixel and by encoding the error of this prediction only Fig 2 gives the general block diagram of this class of coding techniques
+ 
+
+LOSSLESS COMPRESSION - TECHNICAL FRAMEWORK
+Lossless image compression has been a significant issue in recent years due to the increasing demand for storing huge amounts of high quality multimedia data in a small storage Applications like medical imaging satellite imagery FAX transmission etc uses lossless compression techniques to store and transmit data
+ 
+Video and Image Compression
+ All video data takes up a lot of space Video compression technologies are about reducing and removing redundant video data so that a digital video file can be effectively sent over a network and stored on computer disks Usage of standard compression techniques ensures compatibility and interoperability Video compression standards include Different transform coding techniques used in image and video are as follows
+ 1) DFT and DCT DFT is the transformation of the discrete signal of time domain into its discrete frequency domain representation DCT (Discrete cosine Transformation) is a simple and basic technique to transform an image from spatial domain to frequency domain Well-known JPEG (Joint Photographic Experts Group) is based on DCT is lossy compression techniques with relatively high compression ratio which is done by exploiting human eye perception But suffers from blocking artifactsThe DCT is more efficient in concentrating energy into lower order coefficients than DFT 
+2) WT Wavelet based compression techniques have become more popular because they provide exceptional image quality at high compression rates It avoids blocking artifacts better matched to the HVS (Human Visual System) It is efficient at low bit rates as compared to DCT DWT (Discrete Wavelet transform) and IWT (Integer Wavelet Transform) are two important types of wavelet based compression IWT technique is a lossless compression based on an integer wavelet filter called biorthogonal 3/S The IWT construction using lifting is done in the spatial domain JPEG 2000 is loss less mode runs really slow and often has less compression ratios on artificial and compound images
+
+Audio Compression
+ Analog audio signals are converted into digital audio through a sampling process and then compressed to decrease the size for efficient transmission and storage The conversion and compression is done using an audio codec an algorithm that codes and decodes audio data The bit rates most often selected with audio codecs are between 32 kb/s and 64 kb/s There are various audio codecs to support different sampling frequencies and levels of compression Sampling frequency refers to the number of times per second a sample of an analog audio signal is taken and it is deformed in hertz (Hz) Higher the sampling frequency better the audio quality and the greater the bandwidth and storage needs With increased network bandwidth lossless codec like Dolby True HD are becoming popular
+
+Text Compression
+ Text essentially consists of words and punctuations forming up sentences These words belong to standard list called as Dictionary Also based on statistics [10] of usage average word length in language can be considered as a set of binary strings Hence we have different approach to compress text data as
+Dictionary Based Dictionary based coding can be static or dynamic
+Run Length Coding (RLE) This is very simple compression method used for sequential and repetitive data
+Entropy Based Coders An Entropy based coder allocates several bits to a code word proportional to an information value of the code word
+Statistical Based Techniques In statistical modeling the compression is based on statistical redundancy
+JB1G The JBIG standard is the new international standard for bi- level image compression used in FAX transmission
+
